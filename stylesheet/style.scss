@@ -13,6 +13,12 @@
 $manrope-font: "Manrope", sans-serif;
 $gilroy-font: "Gilroy-bold", sans-serif;
 
+$color-purple: #4F46BA;  
+$color-purple-hover: #3734A9;
+
+$header-links-gap: 1.5rem;
+
+
 
 //Mixin 
 @mixin fontStyle($family: sans-serif, $weight: 400) {
@@ -26,6 +32,20 @@ $gilroy-font: "Gilroy-bold", sans-serif;
     display: $display;
     align-items: $align;
     justify-content: $justify;
+}
+
+@mixin buttonStyle($color, $width, $height, $font) {
+    background-color: $color; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    width: $width;
+    height: $height;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: $font;
+    transition-duration: 0.2s;
 }
 
 
@@ -55,15 +75,21 @@ body {
     margin: 0;
 }
 
-//removing default decorations from lists  
+//removing default decorations from lists and links
 ul {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 header {
     background-image: url(../assets/images/header-background.png);
     background-size: cover;
     height: 100svh;
+    padding-top: 2svh;
 
     .header {
         @include flex(flex, center, space-between);
@@ -74,12 +100,24 @@ header {
     
     .header-links {
         @include flex(flex, center, space-between);
-        gap: 12px;
+        gap: $header-links-gap;
+
+        svg {
+            margin-left: 10px;
+        }
     }
     
     .header-buttons {
         @include flex(flex, center, space-between);
-        gap: 12px;
+        gap: $header-links-gap;
+
+        button {
+            @include buttonStyle($color-purple, 7.5rem, 2.75rem, $manrope-font);
+        }
+
+        button:hover {
+            background-color: $color-purple-hover;
+        }
     }
 }
 

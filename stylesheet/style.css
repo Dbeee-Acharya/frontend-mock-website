@@ -40,10 +40,16 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header {
   background-image: url(../assets/images/header-background.png);
   background-size: cover;
   height: 100svh;
+  padding-top: 2svh;
 }
 header .header {
   display: flex;
@@ -56,11 +62,30 @@ header .header-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 1.5rem;
+}
+header .header-links svg {
+  margin-left: 10px;
 }
 header .header-buttons {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 1.5rem;
+}
+header .header-buttons button {
+  background-color: #4F46BA; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  width: 7.5rem;
+  height: 2.75rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Manrope", sans-serif;
+  transition-duration: 0.2s;
+}
+header .header-buttons button:hover {
+  background-color: #3734A9;
 }/*# sourceMappingURL=style.css.map */
