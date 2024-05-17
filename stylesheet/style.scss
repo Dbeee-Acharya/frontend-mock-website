@@ -1,0 +1,86 @@
+//import google fonts
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap'); 
+
+
+//import local fonts
+@font-face {
+    font-family: Gilroy-bold;
+    src: url(./assets/fonts/Gilroy-Bold.ttf);
+}
+
+
+// Variables 
+$manrope-font: "Manrope", sans-serif;
+$gilroy-font: "Gilroy-bold", sans-serif;
+
+
+//Mixin 
+@mixin fontStyle($family: sans-serif, $weight: 400) {
+    font-family: $family;
+    font-optical-sizing: auto;
+    font-weight: $weight;
+    font-style: normal;
+}
+
+@mixin flex($display, $align, $justify) {
+    display: $display;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+
+//set font classes
+.manrope-text-bold {
+    @include fontStyle($manrope-font, 800);
+}
+
+.manrope-text-normal {
+    @include fontStyle($manrope-font, 400);
+}
+
+.gilroy-text-bold {
+    @include fontStyle($gilroy-font, 700);
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+//removing default decorations from lists  
+ul {
+    list-style: none;
+}
+
+header {
+    background-image: url(../assets/images/header-background.png);
+    background-size: cover;
+    height: 100svh;
+
+    .header {
+        @include flex(flex, center, space-between);
+        width: 85%;
+        margin: auto;
+    
+    }
+    
+    .header-links {
+        @include flex(flex, center, space-between);
+        gap: 12px;
+    }
+    
+    .header-buttons {
+        @include flex(flex, center, space-between);
+        gap: 12px;
+    }
+}
+
+
