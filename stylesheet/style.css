@@ -65,6 +65,7 @@ header .header .header-links {
   align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
+  margin-left: 7%;
 }
 header .header .header-links svg {
   margin-left: 10px;
@@ -251,6 +252,7 @@ header .header-content .header-banner-check svg {
   justify-content: center;
   flex-direction: column;
   width: 32%;
+  height: 25rem;
   padding: 2rem 2rem;
   border: 1px solid #DBE4B9;
   border-radius: 24px;
@@ -519,7 +521,7 @@ header .header-content .header-banner-check svg {
 .hidden-fade {
   opacity: 0;
   filter: blur(5px);
-  transition: all 1.8s;
+  transition: all 1s;
 }
 
 .fade-in {
