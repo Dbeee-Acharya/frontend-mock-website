@@ -39,6 +39,7 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 a {
@@ -294,6 +295,53 @@ header .header-content .header-banner-check svg {
   text-align: center;
   line-height: 2;
   margin-bottom: 0;
+}
+
+.track-payments-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 5rem auto;
+}
+.track-payments-section .recieved-money {
+  width: 45%;
+  position: relative;
+  max-height: 520px;
+}
+.track-payments-section .recieved-money .card {
+  position: inherit;
+  top: -450px;
+  right: -25px;
+}
+.track-payments-section .why-choose-us {
+  width: 45%;
+}
+.track-payments-section .why-choose-us p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #3734A9;
+}
+.track-payments-section .why-choose-us h1 {
+  font-size: 3rem;
+}
+.track-payments-section .why-choose-us .text {
+  font-size: 18px;
+  color: #505887;
+}
+.track-payments-section .why-choose-us hr {
+  color: #c4c4c4;
+}
+.track-payments-section .why-choose-us ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.track-payments-section .why-choose-us svg {
+  margin-right: 10px;
+  color: #FDBC64;
 }
 
 .card:nth-child(2) {

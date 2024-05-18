@@ -19,6 +19,7 @@ $color-grey: #F5F6F8;
 $color-dark-grey: #c4c4c4;
 $color-slight-lavender: #FAFBFF;
 $color-border-grey: #DBE4B9;
+$text-color-purple: #505887;
 
 $header-links-gap: 1.5rem;
 
@@ -84,6 +85,7 @@ body {
 //removing default decorations from lists and links
 ul {
     list-style: none;
+    padding: 0;
 }
 
 a {
@@ -314,6 +316,56 @@ header {
             text-align: center;
             line-height: 2;
             margin-bottom: 0;
+        }
+    }
+}
+
+.track-payments-section {
+    @include flex(flex, center, space-between);
+    width: 80%;
+    margin: 5rem auto;
+
+    .recieved-money {
+        width: 45%;
+        position: relative;
+        max-height: 520px;
+
+        .card {
+            position: inherit;
+            top: -450px;
+            right: -25px;
+        }
+    }
+
+    .why-choose-us {
+        width: 45%;
+        p {
+            font-size: 14px;
+            font-weight: 700;
+            color: $color-purple-hover;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .text {
+            font-size: 18px;
+            color: $text-color-purple;
+        }
+
+        hr {
+            color: $color-dark-grey;
+        }
+
+        ul {
+            @include flex(flex, flex-start, center);
+            flex-direction: column;
+            gap: 10px;
+        }
+        svg {
+            margin-right: 10px;
+            color: #FDBC64;
         }
     }
 }
