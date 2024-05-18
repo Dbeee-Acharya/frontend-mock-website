@@ -655,6 +655,69 @@ header {
     }
 }
 
+.blog {
+    margin: 5rem 0 0;
+
+    .blog-content {
+        width: 85%;
+        margin: auto;
+
+        h1 {
+            font-size: 3.5rem;
+        }
+
+        .blogs {
+            @include flex(flex, flex-start, center);
+            flex-direction: column;
+            gap: 2rem;
+            width: 100%;
+
+            .blog-card {
+                @include flex(flex, center, space-between);
+                gap: 10rem;
+                width: 100%;
+                background-color: white;
+                padding-left: 2rem;
+
+                .text {
+                    font-weight: 600;
+                }
+
+                #jump {
+                    margin-top: 3.5rem;
+                    animation: floating 2s ease-in-out infinite;
+                    svg {
+                        margin-left: 1rem;
+                    }
+                }
+
+                img {
+                    width: 40%;
+                }
+            }
+
+            .blog-card-many {
+                @include flex(flex, center, space-between);
+
+                .card {
+                    @include flex(flex, center, space-between);
+                    flex-direction: column;
+                    width: 30%;
+                    background-color: white;
+                    height: 27rem;
+
+                    .text {
+                        margin: 0 1rem 0;
+                    }
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
 
 //----------CSS FOR ANIMATIONS--------------
 
@@ -706,3 +769,8 @@ header {
     filter: blur(0);
 }
 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 5px); }
+    100%   { transform: translate(0, -0px); }    
+}
