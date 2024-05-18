@@ -17,6 +17,8 @@ $color-purple-hover: #3734A9;
 $color-green: #22D497;
 $color-grey: #F5F6F8;
 $color-dark-grey: #c4c4c4;
+$color-slight-lavender: #FAFBFF;
+$color-border-grey: #DBE4B9;
 
 $header-links-gap: 1.5rem;
 
@@ -76,6 +78,7 @@ html {
 
 body {
     margin: 0;
+    background-color: $color-slight-lavender;
 }
 
 //removing default decorations from lists and links
@@ -254,5 +257,88 @@ header {
             }
         }
     }
+}
+
+.portfolio-tracking-cards {
+    @include flex(flex, center, space-between);
+    width: 80%;
+    margin: auto;
+
+    .card {
+        @include flex(flex, center, center);
+        flex-direction: column;
+        width: 32%;
+        padding: 2rem 2rem;
+        border: 1px solid $color-border-grey;
+        border-radius: 24px;
+        background-color: white;
+
+        .manrope-text-bold {
+            font-size: 2rem;
+        }
+        .number {
+            align-self: flex-start;
+            font-size: 1.5rem;
+        }
+
+        .heading {
+            @include flex(flex, center, center);
+            flex-direction: column;
+            text-align: center;
+  
+            p.manrope-text-bold {
+                margin-bottom: 0;
+            }
+
+            .rectangle {
+                @include flex(flex, flex-start, space-between);
+                flex-direction: column;
+                width: 50px;
+                height: 45px;
+
+                .head {
+                    width: 40px;
+                    height: 10px;
+                    background-color: black;
+                }
+
+                .body {
+                    width: 50px;
+                    height: 30px;
+                    background-color: #3234a9;
+                }
+            }
+        }
+
+        .text {
+            text-align: center;
+            line-height: 2;
+            margin-bottom: 0;
+        }
+    }
+}
+
+// Adding delay to 2nd and 3rd card to enhance stacking animation
+.card:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.card:nth-child(3) {
+    transition-delay: 300ms;
+}
+
+
+// For animation on scroll
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
 

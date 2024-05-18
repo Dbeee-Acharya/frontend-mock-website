@@ -34,6 +34,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #FAFBFF;
 }
 
 ul {
@@ -234,4 +235,84 @@ header .header-content .header-banner-check svg {
 .automated-portfolio-tracking .comment .comment-background .comment-content {
   position: relative;
   top: -60px;
+}
+
+.portfolio-tracking-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.portfolio-tracking-cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 32%;
+  padding: 2rem 2rem;
+  border: 1px solid #DBE4B9;
+  border-radius: 24px;
+  background-color: white;
+}
+.portfolio-tracking-cards .card .manrope-text-bold {
+  font-size: 2rem;
+}
+.portfolio-tracking-cards .card .number {
+  align-self: flex-start;
+  font-size: 1.5rem;
+}
+.portfolio-tracking-cards .card .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.portfolio-tracking-cards .card .heading p.manrope-text-bold {
+  margin-bottom: 0;
+}
+.portfolio-tracking-cards .card .heading .rectangle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 50px;
+  height: 45px;
+}
+.portfolio-tracking-cards .card .heading .rectangle .head {
+  width: 40px;
+  height: 10px;
+  background-color: black;
+}
+.portfolio-tracking-cards .card .heading .rectangle .body {
+  width: 50px;
+  height: 30px;
+  background-color: #3234a9;
+}
+.portfolio-tracking-cards .card .text {
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 0;
+}
+
+.card:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.card:nth-child(3) {
+  transition-delay: 300ms;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }/*# sourceMappingURL=style.css.map */
