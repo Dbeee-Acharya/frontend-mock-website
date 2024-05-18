@@ -302,7 +302,7 @@ header .header-content .header-banner-check svg {
   align-items: center;
   justify-content: space-between;
   width: 80%;
-  margin: 5rem auto;
+  margin: 5rem auto 0rem;
 }
 .track-payments-section .recieved-money {
   width: 45%;
@@ -313,6 +313,14 @@ header .header-content .header-banner-check svg {
   position: inherit;
   top: -450px;
   right: -25px;
+}
+.track-payments-section .hand-credit-card-black {
+  position: relative;
+}
+.track-payments-section .hand-credit-card-black .total-balance {
+  position: relative;
+  top: -300px;
+  left: -50px;
 }
 .track-payments-section .why-choose-us {
   width: 45%;
@@ -344,6 +352,44 @@ header .header-content .header-banner-check svg {
   color: #FDBC64;
 }
 
+.track-payments-section.two {
+  margin-top: 0;
+  position: relative;
+}
+.track-payments-section.two .two {
+  position: inherit;
+  top: -80px;
+}
+.track-payments-section.two .comment {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 4rem;
+}
+.track-payments-section.two .comment .comment-background {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #c4c4c4;
+  padding: 1.5rem 1.5rem 1rem;
+  width: 100%;
+  height: 10rem;
+  border-radius: 24px;
+  position: relative;
+}
+.track-payments-section.two .comment .comment-background img {
+  position: inherit;
+  top: -50px;
+  right: -5px;
+}
+.track-payments-section.two .comment .comment-background .comment-content {
+  position: relative;
+  top: -60px;
+}
+.track-payments-section.two .comment .comment-background .comment-content p {
+  color: black;
+}
+
 .card:nth-child(2) {
   transition-delay: 200ms;
 }
@@ -363,4 +409,17 @@ header .header-content .header-banner-check svg {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+}
+
+.hidden-down {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(100%);
+  transition: all 0.8s;
+}
+
+.go-up {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
 }/*# sourceMappingURL=style.css.map */
