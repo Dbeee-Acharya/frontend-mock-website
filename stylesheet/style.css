@@ -396,7 +396,13 @@ header .header-content .header-banner-check svg {
 .features {
   background-color: #C9E7F2;
   margin-top: 5rem;
-  padding: 5rem;
+  padding: 5rem 5rem 0;
+  position: relative;
+}
+.features img {
+  position: inherit;
+  left: -90px;
+  top: -95px;
 }
 .features .features-content {
   width: 85%;
@@ -482,6 +488,32 @@ header .header-content .header-banner-check svg {
 .features .features-content .feature-cards .card-separated .card-separate p {
   font-size: 1.25rem;
   margin: 0;
+}
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+}
+.testimonials .testimonials-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+.testimonials .testimonials-heading h1 {
+  font-size: 3rem;
+}
+.testimonials .testimonials-heading p {
+  line-height: 2;
+}
+.testimonials .testimonials-heading img {
+  position: inherit;
+  bottom: -50px;
 }
 
 .card:nth-child(2) {

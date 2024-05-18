@@ -23,6 +23,7 @@ $text-color-purple: #505887;
 $color-cyan: #C9E7F2;
 
 $header-links-gap: 1.5rem;
+$line-height: 2;
 
 
 
@@ -317,7 +318,7 @@ header {
 
         .text {
             text-align: center;
-            line-height: 2;
+            line-height: $line-height;
             margin-bottom: 0;
         }
     }
@@ -428,7 +429,14 @@ header {
 .features {
     background-color: $color-cyan;
     margin-top: 5rem;
-    padding: 5rem;
+    padding: 5rem 5rem 0;
+    position: relative;
+
+    img {
+        position: inherit;
+        left: -90px;
+        top: -95px;
+    }
 
     .features-content {
         width: 85%;
@@ -491,7 +499,7 @@ header {
                 }
         
                 .text {
-                    line-height: 2;
+                    line-height: $line-height;
                     margin-bottom: 0;
                 }
             }
@@ -518,6 +526,33 @@ header {
             }
         }
     }
+}
+
+.testimonials {
+    @include flex(flex, center, center);
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+
+    .testimonials-heading {
+        @include flex(flex, center, space-between);
+        width: 100%;
+        position: relative;        
+
+        h1{
+            font-size: 3rem;
+        }
+
+        p {
+            line-height: $line-height;
+        }
+
+        img {
+            position: inherit;
+            bottom: -50px;
+        }
+    }
+
 }
 
 
