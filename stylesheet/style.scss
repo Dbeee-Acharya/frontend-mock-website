@@ -339,6 +339,7 @@ header {
 
     .hand-credit-card-black {
         position: relative;
+        max-height: 685px;
 
         .total-balance {
             position: relative;
@@ -386,7 +387,7 @@ header {
 
     .two {
         position: inherit;
-        top: -80px
+        bottom: -40px
     }
     .comment {
         @include flex(flex, center, flex-end);
