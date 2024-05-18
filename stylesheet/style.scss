@@ -497,7 +497,7 @@ header {
             .card-separated {
                 @include flex(flex, center, center);
                 flex-direction: column;
-                gap: 1rem;
+                gap: 1.25rem;
                 width: 32%;
 
                 .card-separate {
