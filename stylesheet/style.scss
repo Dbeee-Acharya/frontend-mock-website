@@ -1,7 +1,6 @@
 //import google fonts
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap'); 
 
-
 //import local fonts
 @font-face {
     font-family: Gilroy-bold;
@@ -16,6 +15,7 @@ $gilroy-font: "Gilroy-bold", sans-serif;
 $color-purple: #4F46BA;  
 $color-purple-hover: #3734A9;
 $color-green: #22D497;
+$color-grey: #F5F6F8;
 
 $header-links-gap: 1.5rem;
 
@@ -36,7 +36,7 @@ $header-links-gap: 1.5rem;
 }
 
 @mixin buttonStyle($color, $width, $height, $font, $radius) {
-    background-color: $color; /* Green */
+    background-color: $color; 
     border: none;
     color: white;
     padding: 12px 16px;
@@ -192,6 +192,23 @@ header {
             svg {
                 margin-right: 5px;
             }
+        }
+    }
+}
+
+.companies {
+    background-color: $color-grey;
+    padding: 3rem 0;
+
+    div {
+        @include flex(flex, center, space-between);
+        flex-direction: column;
+        width: 85%;
+        margin: auto; 
+
+        p {
+            margin: 0 auto 2rem;
+            font-weight: 600;
         }
     }
 }

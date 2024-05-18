@@ -74,7 +74,7 @@ header .header .header-buttons {
   gap: 1.5rem;
 }
 header .header .header-buttons button {
-  background-color: #4F46BA; /* Green */
+  background-color: #4F46BA;
   border: none;
   color: white;
   padding: 12px 16px;
@@ -119,7 +119,7 @@ header .header-content .header-banner-buttons {
   gap: 2rem;
 }
 header .header-content .header-banner-buttons .get-started {
-  background-color: #3734A9; /* Green */
+  background-color: #3734A9;
   border: none;
   color: white;
   padding: 12px 16px;
@@ -139,7 +139,7 @@ header .header-content .header-banner-buttons .get-started:active {
   background-color: #3734A9;
 }
 header .header-content .header-banner-buttons .how-works {
-  background-color: #22D497; /* Green */
+  background-color: #22D497;
   border: none;
   color: white;
   padding: 12px 16px;
@@ -176,4 +176,21 @@ header .header-content .header-banner-check {
 }
 header .header-content .header-banner-check svg {
   margin-right: 5px;
+}
+
+.companies {
+  background-color: #F5F6F8;
+  padding: 3rem 0;
+}
+.companies div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+}
+.companies div p {
+  margin: 0 auto 2rem;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
