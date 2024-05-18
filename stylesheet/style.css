@@ -519,7 +519,7 @@ header .header-content .header-banner-check svg {
 .hidden-fade {
   opacity: 0;
   filter: blur(5px);
-  transition: all 1.5s;
+  transition: all 1.8s;
 }
 
 .fade-in {
