@@ -15,6 +15,7 @@ $gilroy-font: "Gilroy-bold", sans-serif;
 
 $color-purple: #4F46BA;  
 $color-purple-hover: #3734A9;
+$color-green: #22D497;
 
 $header-links-gap: 1.5rem;
 
@@ -34,7 +35,7 @@ $header-links-gap: 1.5rem;
     justify-content: $justify;
 }
 
-@mixin buttonStyle($color, $width, $height, $font) {
+@mixin buttonStyle($color, $width, $height, $font, $radius) {
     background-color: $color; /* Green */
     border: none;
     color: white;
@@ -45,6 +46,7 @@ $header-links-gap: 1.5rem;
     text-decoration: none;
     display: inline-block;
     font-family: $font;
+    border-radius: $radius;
     transition-duration: 0.2s;
 }
 
@@ -93,30 +95,103 @@ header {
 
     .header {
         @include flex(flex, center, space-between);
-        width: 85%;
+        width: 80%;
         margin: auto;
-    
-    }
-    
-    .header-links {
-        @include flex(flex, center, space-between);
-        gap: $header-links-gap;
 
-        svg {
-            margin-left: 10px;
-        }
-    }
+        .header-links {
+            @include flex(flex, center, space-between);
+            gap: $header-links-gap;
     
-    .header-buttons {
-        @include flex(flex, center, space-between);
-        gap: $header-links-gap;
-
-        button {
-            @include buttonStyle($color-purple, 7.5rem, 2.75rem, $manrope-font);
+            svg {
+                margin-left: 10px;
+            }
         }
 
-        button:hover {
-            background-color: $color-purple-hover;
+        .header-buttons {
+            @include flex(flex, center, space-between);
+            gap: $header-links-gap;
+    
+            button {
+                @include buttonStyle($color-purple, 7.5rem, 2.75rem, $manrope-font, 0);
+            }
+    
+            button:hover {
+                background-color: $color-purple-hover;
+            }
+
+            button:active {
+                background-color: $color-purple;
+            }
+        }
+    }
+
+    .header-content {
+        @include flex(flex, flex-start, center);
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        padding-top: 7rem;
+        gap: 1rem;
+
+        .header-main {
+            width: 40%;
+            font-size: 3rem;
+            margin: auto 0;
+        }
+
+        .header-subtext {
+            width: 30%;
+            margin: -2px 0 30px;   
+
+        }
+
+        .header-banner-buttons {
+            @include flex(flex, center, space-between);
+            gap: 2rem;
+
+            .get-started {
+                @include buttonStyle($color-purple-hover, 8rem, 3rem, inherit, 24px);
+            }
+
+            .get-started:hover {
+                background-color: $color-purple;
+            }
+
+            .get-started:active {
+                background-color: $color-purple-hover;
+            }
+
+            .how-works {
+                @include buttonStyle($color-green, 3rem, 3rem, inherit, 50%);
+                text-align: center;
+                margin-right: 0.5rem;
+            }
+
+            .how-works:hover {
+                box-shadow: 1.5px 1.5px 1px rgba(0,0,0,0.3);
+                transform: translate(-1px, -1px);
+            }
+
+            .how-works:active {
+                box-shadow: none;
+                transform: translate(1px, 1px);
+            }
+
+            span {
+                color: $color-purple-hover;
+            }
+        }
+
+        .header-banner-check {
+            @include flex(flex, center, space-between);
+            gap: 20px;
+            color: $color-purple-hover;
+            margin: 3rem 0 0;
+            font-size: 1rem;
+            
+            svg {
+                margin-right: 5px;
+            }
         }
     }
 }
