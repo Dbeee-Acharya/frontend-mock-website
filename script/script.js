@@ -30,6 +30,8 @@ const observerFade = new IntersectionObserver((entries) => {
     });
 });
 
+// Animation for accordion 
+
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
