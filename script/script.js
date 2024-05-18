@@ -20,8 +20,21 @@ const observerUp = new IntersectionObserver((entries) => {
     });
 });
 
+const observerFade = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add("fade-in")
+        } else {
+            entry.target.classList.remove("fade-in")
+        }
+    });
+});
+
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
 const hiddenElementsDown = document.querySelectorAll(".hidden-down");
 hiddenElementsDown.forEach((el) => observerUp.observe(el));
+
+const hiddenElementsFade = document.querySelectorAll(".hidden-fade");
+hiddenElementsFade.forEach((el) => observerFade.observe(el));
