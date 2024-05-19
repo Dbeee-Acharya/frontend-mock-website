@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@import "./variables";
+@import "./mixin";
+
+//import local fonts
+
+@font-face {
+    font-family: Gilroy-bold;
+    src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+
+
+//set font classes
+.manrope-text-bold {
+    @include fontStyle($manrope-font, 800);
+}
+
+.manrope-text-normal {
+    @include fontStyle($manrope-font, 400);
+}
+
+.gilroy-text-bold {
+    @include fontStyle($gilroy-font, 700);
+
+}

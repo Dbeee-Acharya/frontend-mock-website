@@ -1,0 +1,200 @@
+@import "./variables";
+@import "./mixin";
+@import "./fonts";
+
+.track-payments-section {
+    @include flex(flex, center, space-between);
+    width: 80%;
+    margin: 5rem auto 0rem;
+    position: relative;
+
+    .recieved-money {
+        width: fit-content;
+        position: relative;
+        max-height: 520px;
+
+    }
+
+    .card {
+        position: absolute;
+        left: 50px;
+    }
+
+    .hand-credit-card-black {
+        position: relative;
+        max-height: 685px;
+
+        .total-balance {
+            position: absolute;
+            bottom: 100px;
+        }
+    }
+
+    .why-choose-us {
+        width: 45%;
+        p {
+            font-size: 14px;
+            font-weight: 700;
+            color: $color-purple-hover;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .text {
+            font-size: 18px;
+            color: $text-color-purple;
+        }
+
+        hr {
+            color: $color-dark-grey;
+        }
+
+        ul {
+            @include flex(flex, flex-start, center);
+            flex-direction: column;
+            gap: 10px;
+        }
+        svg {
+            margin-right: 10px;
+            color: #FDBC64;
+        }
+    }
+}
+
+.track-payments-section.two {
+    margin: 0 auto 5rem;
+    position: relative;
+
+    .two {
+        position: inherit;
+        bottom: -40px
+    }
+    .comment {
+        @include flex(flex, center, flex-end);
+        width: 100%;
+        margin-top: 4rem;
+
+        .comment-background {
+            font-size: 15px;
+            font-weight: 600;
+            background-color: $color-dark-grey;
+            padding: 1.5rem 1.5rem 1rem;
+            width: 100%; 
+            height: 10rem;
+            border-radius: 24px;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: -15px;
+                display: inline-block;
+            }
+
+            .comment-content {
+                position: absolute;
+                display: inline-block;
+
+                p {
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .why-choose-us {
+        @include flex(flex, flex-start, flex-start);
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1370px) {
+
+    .track-payments-section.one .why-choose-us {
+        width: 30%;
+    }
+
+    .track-payments-section .why-choose-us h1 {
+        font-size: 1.5rem;
+    }
+
+    .track-payments-section .why-choose-us .text {
+        font-size: 0.75rem;
+    }
+
+    .track-payments-section.two {
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+}
+
+@media (max-width: 1075px) {
+    .track-payments-section.one {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .why-choose-us {
+           width: 80%;
+
+           h1 {
+            font-size: 2rem;
+           }
+
+           .text {
+            font-size: 1rem;
+           }
+        }
+
+        .recieved-money img{
+            width: 70svw;
+        }
+
+        .card {
+            top: 40px;
+
+            img {
+                width: 65svw;
+            }
+        }
+    }
+
+    .track-payments-section.two {
+        flex-direction: column-reverse;
+
+        .why-choose-us {
+            width: 90%;
+ 
+            h1 {
+             font-size: 2rem;
+            }
+ 
+            .text {
+             font-size: 1rem;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 670px) {
+    .track-payments-section.two {
+
+        .hand-credit-card-black img {
+            width: 80svw;
+        }
+
+        .total-balance img {
+            width: 60svw;
+        }
+
+        .comment .comment-background .comment-content p {
+            font-size: 0.75rem;
+        }
+    }
+}
+
+
+

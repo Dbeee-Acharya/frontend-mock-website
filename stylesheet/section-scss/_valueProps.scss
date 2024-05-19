@@ -1,0 +1,95 @@
+@import "./variables";
+@import "./mixin";
+@import "./fonts";
+
+.portfolio-tracking-cards {
+    @include flex(flex, center, space-between);
+    width: 80%;
+    margin: auto;
+
+    .card {
+        @include flex(flex, center, center);
+        flex-direction: column;
+        width: 32%;
+        height: 25rem;
+        padding: 2rem 2rem;
+        border: 1px solid $color-border-grey;
+        border-radius: 24px;
+        background-color: white;
+
+        .manrope-text-bold {
+            font-size: 2rem;
+        }
+        .number {
+            align-self: flex-start;
+            font-size: 1.5rem;
+        }
+
+        .heading {
+            @include flex(flex, center, flex-start);
+            flex-direction: column;
+            text-align: center;
+  
+            p {
+                margin-bottom: 0;
+            }
+
+            .rectangle {
+                @include flex(flex, flex-start, space-between);
+                flex-direction: column;
+                width: 50px;
+                height: 45px;
+
+                .head {
+                    width: 40px;
+                    height: 10px;
+                    background-color: black;
+                }
+
+                .body {
+                    width: 50px;
+                    height: 30px;
+                    background-color: #3234a9;
+                }
+            }
+        }
+
+        .text {
+            text-align: center;
+            line-height: $line-height;
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .portfolio-tracking-cards .card .manrope-text-bold{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1070px) {
+    .portfolio-tracking-cards .card {
+        height: 20rem;
+    }
+
+    .portfolio-tracking-cards .card .manrope-text-bold {
+        font-size: 1rem;
+    }
+
+    .portfolio-tracking-cards .card .text {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .portfolio-tracking-cards {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 3rem;
+
+        .card {
+            width: 100%;
+        }
+    }
+}

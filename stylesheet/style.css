@@ -1,0 +1,1784 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header {
+  background-image: url(../assets/images/header-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100svh;
+  padding-top: 2svh;
+}
+header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+header .header .header-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-left: 7%;
+}
+header .header .header-links svg {
+  margin-left: 10px;
+}
+header .header .header-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+header .header .header-buttons button {
+  background-color: #4F46BA;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  width: 7.5rem;
+  height: 2.75rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Manrope", sans-serif;
+  border-radius: 0;
+  transition-duration: 0.2s;
+}
+header .header .header-buttons button:hover {
+  background-color: #3734A9;
+}
+header .header .header-buttons button:active {
+  background-color: #4F46BA;
+}
+header .header-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding-top: 7rem;
+  gap: 1rem;
+}
+header .header-content .header-main {
+  width: 40%;
+  font-size: 3rem;
+  margin: auto 0;
+}
+header .header-content .header-subtext {
+  width: 30%;
+  margin: -2px 0 30px;
+}
+header .header-content .header-banner-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+header .header-content .header-banner-buttons .get-started {
+  background-color: #3734A9;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  width: 8rem;
+  height: 3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: inherit;
+  border-radius: 24px;
+  transition-duration: 0.2s;
+}
+header .header-content .header-banner-buttons .get-started:hover {
+  background-color: #4F46BA;
+}
+header .header-content .header-banner-buttons .get-started:active {
+  background-color: #3734A9;
+}
+header .header-content .header-banner-buttons .how-works {
+  background-color: #22D497;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: inherit;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+header .header-content .header-banner-buttons .how-works:hover {
+  box-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+  transform: translate(-1px, -1px);
+}
+header .header-content .header-banner-buttons .how-works:active {
+  box-shadow: none;
+  transform: translate(1px, 1px);
+}
+header .header-content .header-banner-buttons span {
+  color: #3734A9;
+}
+header .header-content .header-banner-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: #3734A9;
+  margin: 2rem 0 0;
+  font-size: 1rem;
+}
+header .header-content .header-banner-check svg {
+  margin-right: 5px;
+}
+
+@media (max-width: 1460px) {
+  header .header-content .header-main {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 920px) {
+  header {
+    height: 90svh;
+  }
+  header .header .header-links {
+    display: none;
+  }
+  header .header-content .header-main {
+    width: 90%;
+  }
+}
+@media (max-width: 710px) {
+  header .header-content .header-main {
+    font-size: 2rem;
+  }
+  header .header-content .header-subtext {
+    width: 70%;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 660px) {
+  header .header-content .header-main {
+    font-size: 2rem;
+    width: 90%;
+  }
+  header {
+    height: 90svh;
+  }
+  header .header-content .header-subtext {
+    width: 90%;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 520px) {
+  header .header-content {
+    margin-top: 4rem;
+    padding-top: 0;
+  }
+  header .header-content .header-main {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+  header {
+    height: 80svh;
+  }
+  header .header-content .header-subtext {
+    width: 90%;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 440px) {
+  header {
+    height: 80svh;
+  }
+  header .header-content .header-main, header .header-content .header-subtext {
+    width: 90%;
+    font-size: 1rem;
+  }
+  header .header .header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  header .header .header-buttons button {
+    height: 2rem;
+    width: 5rem;
+    font-size: 0.55rem;
+  }
+  header .header-content .header-banner-buttons {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.companies {
+  background-color: #F5F6F8;
+  padding: 3rem 0;
+  margin: auto;
+}
+.companies div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+}
+.companies div p {
+  margin: 0 auto 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.companies div .images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+@media (max-width: 381px) {
+  .companies div .images {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.automated-portfolio-tracking {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 5rem auto;
+}
+.automated-portfolio-tracking .text {
+  width: 50%;
+}
+.automated-portfolio-tracking .text .main-text {
+  font-size: 3.25rem;
+  margin: 0 0;
+}
+.automated-portfolio-tracking .comment {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 40%;
+}
+.automated-portfolio-tracking .comment .comment-background {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #c4c4c4;
+  padding: 1.5rem 1.5rem 1rem;
+  width: 100%;
+  height: 10rem;
+  border-radius: 24px;
+  position: relative;
+}
+.automated-portfolio-tracking .comment .comment-background img {
+  position: absolute;
+  top: -15px;
+}
+.automated-portfolio-tracking .comment .comment-background .comment-content {
+  position: absolute;
+}
+
+@media (max-width: 1500px) {
+  .automated-portfolio-tracking .comment {
+    width: 50%;
+  }
+}
+@media (max-width: 1200px) {
+  .automated-portfolio-tracking .comment {
+    width: 60%;
+  }
+  .automated-portfolio-tracking .text {
+    width: 40%;
+  }
+}
+@media (max-width: 950px) {
+  .automated-portfolio-tracking {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .automated-portfolio-tracking .comment, .automated-portfolio-tracking .text {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .automated-portfolio-tracking .comment {
+    width: 100%;
+  }
+  .automated-portfolio-tracking .comment .comment-content {
+    font-size: 0.75rem;
+  }
+  .automated-portfolio-tracking .text {
+    width: 100%;
+  }
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.portfolio-tracking-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.portfolio-tracking-cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 32%;
+  height: 25rem;
+  padding: 2rem 2rem;
+  border: 1px solid #DBE4B9;
+  border-radius: 24px;
+  background-color: white;
+}
+.portfolio-tracking-cards .card .manrope-text-bold {
+  font-size: 2rem;
+}
+.portfolio-tracking-cards .card .number {
+  align-self: flex-start;
+  font-size: 1.5rem;
+}
+.portfolio-tracking-cards .card .heading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+}
+.portfolio-tracking-cards .card .heading p {
+  margin-bottom: 0;
+}
+.portfolio-tracking-cards .card .heading .rectangle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 50px;
+  height: 45px;
+}
+.portfolio-tracking-cards .card .heading .rectangle .head {
+  width: 40px;
+  height: 10px;
+  background-color: black;
+}
+.portfolio-tracking-cards .card .heading .rectangle .body {
+  width: 50px;
+  height: 30px;
+  background-color: #3234a9;
+}
+.portfolio-tracking-cards .card .text {
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1300px) {
+  .portfolio-tracking-cards .card .manrope-text-bold {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1070px) {
+  .portfolio-tracking-cards .card {
+    height: 20rem;
+  }
+  .portfolio-tracking-cards .card .manrope-text-bold {
+    font-size: 1rem;
+  }
+  .portfolio-tracking-cards .card .text {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 900px) {
+  .portfolio-tracking-cards {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+  .portfolio-tracking-cards .card {
+    width: 100%;
+  }
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.track-payments-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 5rem auto 0rem;
+  position: relative;
+}
+.track-payments-section .recieved-money {
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  max-height: 520px;
+}
+.track-payments-section .card {
+  position: absolute;
+  left: 50px;
+}
+.track-payments-section .hand-credit-card-black {
+  position: relative;
+  max-height: 685px;
+}
+.track-payments-section .hand-credit-card-black .total-balance {
+  position: absolute;
+  bottom: 100px;
+}
+.track-payments-section .why-choose-us {
+  width: 45%;
+}
+.track-payments-section .why-choose-us p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #3734A9;
+}
+.track-payments-section .why-choose-us h1 {
+  font-size: 3rem;
+}
+.track-payments-section .why-choose-us .text {
+  font-size: 18px;
+  color: #505887;
+}
+.track-payments-section .why-choose-us hr {
+  color: #c4c4c4;
+}
+.track-payments-section .why-choose-us ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.track-payments-section .why-choose-us svg {
+  margin-right: 10px;
+  color: #FDBC64;
+}
+
+.track-payments-section.two {
+  margin: 0 auto 5rem;
+  position: relative;
+}
+.track-payments-section.two .two {
+  position: inherit;
+  bottom: -40px;
+}
+.track-payments-section.two .comment {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 4rem;
+}
+.track-payments-section.two .comment .comment-background {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #c4c4c4;
+  padding: 1.5rem 1.5rem 1rem;
+  width: 100%;
+  height: 10rem;
+  border-radius: 24px;
+  position: relative;
+}
+.track-payments-section.two .comment .comment-background img {
+  position: absolute;
+  top: -15px;
+  display: inline-block;
+}
+.track-payments-section.two .comment .comment-background .comment-content {
+  position: absolute;
+  display: inline-block;
+}
+.track-payments-section.two .comment .comment-background .comment-content p {
+  color: black;
+}
+.track-payments-section.two .why-choose-us {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+@media (max-width: 1370px) {
+  .track-payments-section.one .why-choose-us {
+    width: 30%;
+  }
+  .track-payments-section .why-choose-us h1 {
+    font-size: 1.5rem;
+  }
+  .track-payments-section .why-choose-us .text {
+    font-size: 0.75rem;
+  }
+  .track-payments-section.two {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}
+@media (max-width: 1075px) {
+  .track-payments-section.one {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .track-payments-section.one .why-choose-us {
+    width: 80%;
+  }
+  .track-payments-section.one .why-choose-us h1 {
+    font-size: 2rem;
+  }
+  .track-payments-section.one .why-choose-us .text {
+    font-size: 1rem;
+  }
+  .track-payments-section.one .recieved-money img {
+    width: 70svw;
+  }
+  .track-payments-section.one .card {
+    top: 40px;
+  }
+  .track-payments-section.one .card img {
+    width: 65svw;
+  }
+  .track-payments-section.two {
+    flex-direction: column-reverse;
+  }
+  .track-payments-section.two .why-choose-us {
+    width: 90%;
+  }
+  .track-payments-section.two .why-choose-us h1 {
+    font-size: 2rem;
+  }
+  .track-payments-section.two .why-choose-us .text {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 670px) {
+  .track-payments-section.two .hand-credit-card-black img {
+    width: 80svw;
+  }
+  .track-payments-section.two .total-balance img {
+    width: 60svw;
+  }
+  .track-payments-section.two .comment .comment-background .comment-content p {
+    font-size: 0.75rem;
+  }
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.features {
+  background-color: #C9E7F2;
+  margin-top: 5rem;
+  padding: 5rem 5rem 0;
+  position: relative;
+}
+.features img {
+  position: inherit;
+  left: -90px;
+  top: -95px;
+}
+.features .features-content {
+  width: 85%;
+  margin: auto;
+}
+.features .features-content h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.features .features-content .feature-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.features .features-content .feature-cards .card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 32%;
+  padding: 2rem 2rem;
+  border: 1px solid #DBE4B9;
+  border-radius: 10px;
+  background-color: white;
+  margin: 3rem 0;
+}
+.features .features-content .feature-cards .card .manrope-text-bold {
+  font-size: 2rem;
+}
+.features .features-content .feature-cards .card .number {
+  align-self: flex-start;
+  font-size: 1.5rem;
+}
+.features .features-content .feature-cards .card .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.features .features-content .feature-cards .card .heading p.manrope-text-bold {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+}
+.features .features-content .feature-cards .card .heading .rectangle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 50px;
+  height: 45px;
+}
+.features .features-content .feature-cards .card .heading .rectangle .head {
+  width: 40px;
+  height: 10px;
+  background-color: black;
+}
+.features .features-content .feature-cards .card .heading .rectangle .body {
+  width: 50px;
+  height: 30px;
+  background-color: #3234a9;
+}
+.features .features-content .feature-cards .card .text {
+  line-height: 2;
+  margin-bottom: 0;
+}
+.features .features-content .feature-cards .card-separated {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 32%;
+}
+.features .features-content .feature-cards .card-separated .card-separate {
+  padding: 2.5rem 2rem;
+  border: 1px solid #DBE4B9;
+  border-radius: 10px;
+  background-color: white;
+  margin: 0;
+  width: 100%;
+}
+.features .features-content .feature-cards .card-separated .card-separate p {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+@media (max-width: 1035px) {
+  .features {
+    padding: 1rem 2.5rem;
+  }
+  .features .features-content .feature-cards {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .features .features-content .feature-cards .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .features .features-content .feature-cards .card-separated {
+    width: 100%;
+  }
+}
+@media (max-width: 515px) {
+  .features {
+    padding: 1rem 2.5rem;
+  }
+  .features .features-content {
+    width: 100%;
+  }
+  .features .features-content .text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+}
+.testimonials .testimonials-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+.testimonials .testimonials-heading h1 {
+  font-size: 3rem;
+}
+.testimonials .testimonials-heading p {
+  line-height: 2;
+}
+.testimonials .testimonials-heading img {
+  position: inherit;
+  bottom: -50px;
+}
+.testimonials .testimonials-cards {
+  display: flex;
+  align-items: center;
+  justify-content: none;
+  gap: 2rem;
+  width: 100%;
+  margin: 1rem auto 0;
+  max-height: inherit;
+  overflow: scroll hidden;
+}
+.testimonials .testimonials-cards .card {
+  position: relative;
+}
+.testimonials .testimonials-cards .card .quote {
+  position: inherit;
+  bottom: -25px;
+  right: -20px;
+  z-index: 1;
+}
+.testimonials .testimonials-cards .card .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 50%;
+  max-height: 400px;
+  border: 1px solid #DBE4B9;
+  border-radius: 18px;
+  background-color: white;
+  position: relative;
+  gap: 5rem;
+  width: 45svw;
+}
+.testimonials .testimonials-cards .card .content p {
+  font-weight: 600;
+  font-size: 20px;
+}
+.testimonials .testimonials-cards .card .content .image img {
+  width: 12rem;
+}
+
+@media (max-width: 1290px) {
+  .testimonials .testimonials-cards .card .content {
+    width: 70svw;
+  }
+}
+@media (max-width: 790px) {
+  .testimonials .testimonials-cards .card .content p {
+    font-size: 14px;
+  }
+  .testimonials .testimonials-cards .card .content .image img {
+    width: 8rem;
+  }
+  .testimonials .testimonials-cards .card .quote {
+    width: 2rem;
+  }
+}
+@media (max-width: 790px) {
+  .testimonials .testimonials-heading h1 {
+    font-size: 2rem;
+  }
+  .testimonials .testimonials-heading p {
+    font-size: 0.75rem;
+  }
+  .testimonials .testimonials-heading img {
+    width: 5rem;
+  }
+  .testimonials .testimonials-cards .card .content {
+    width: 75svw;
+  }
+  .testimonials .testimonials-cards .card .content p {
+    font-size: 10px;
+  }
+  .testimonials .testimonials-cards .card .content .image img {
+    width: 5rem;
+  }
+}
+@media (max-width: 450px) {
+  .testimonials .testimonials-heading h1 {
+    font-size: 1rem;
+  }
+  .testimonials .testimonials-heading img {
+    width: 3rem;
+  }
+  .testimonials .testimonials-cards .card .content {
+    width: 95svw;
+  }
+  .testimonials .testimonials-cards .card .content p {
+    font-size: 10px;
+  }
+  .testimonials .testimonials-cards .card .content .image img {
+    width: 3rem;
+  }
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.statistics {
+  width: 100%;
+  padding: 2rem 0;
+  margin: 5rem 0 0;
+  background-color: #3734A9;
+}
+.statistics .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.statistics .main-content p {
+  width: 12%;
+  line-height: 2;
+  font-size: 19px;
+}
+.statistics .main-content .line {
+  position: inherit;
+  border-left: 2px solid #c4c4c4;
+  height: 10rem;
+  right: -10px;
+}
+.statistics .main-content .numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.statistics .main-content .numbers .content h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+.statistics .main-content .numbers .content p {
+  width: 100%;
+  margin: 0;
+  padding-left: 1rem;
+}
+.statistics .main-content .numbers .content p svg {
+  margin-right: 1rem;
+}
+.statistics .main-content .topography {
+  position: absolute;
+  right: -150px;
+}
+
+@media (max-width: 1190px) {
+  .statistics .main-content {
+    margin: 0 3rem 0 3rem;
+  }
+  .statistics .main-content .topography {
+    display: none;
+  }
+  .statistics .main-content p {
+    font-size: 15px;
+  }
+  .statistics .main-content .numbers .content h1 {
+    font-size: 3rem;
+  }
+  .statistics .main-content .numbers .content p {
+    font-size: 1rem;
+    padding-left: 0;
+  }
+  .statistics .main-content .numbers .content p svg {
+    width: 15px;
+  }
+}
+@media (max-width: 690px) {
+  .statistics {
+    padding: 0;
+  }
+  .statistics .main-content .topography {
+    display: none;
+  }
+  .statistics .main-content p {
+    font-size: 12px;
+  }
+  .statistics .main-content .numbers .content h1 {
+    font-size: 2rem;
+  }
+  .statistics .main-content .numbers .content p {
+    font-size: 0.75rem;
+  }
+  .statistics .main-content .numbers .content p svg {
+    width: 12px;
+  }
+}
+@media (max-width: 590px) {
+  .statistics {
+    padding: 0;
+  }
+  .statistics .main-content .topography {
+    display: none;
+  }
+  .statistics .main-content p {
+    font-size: 10px;
+  }
+  .statistics .main-content .numbers {
+    position: absolute;
+    left: 60px;
+  }
+  .statistics .main-content .numbers .content h1 {
+    font-size: 1.5rem;
+  }
+  .statistics .main-content .numbers .content p {
+    font-size: 0.75rem;
+  }
+  .statistics .main-content .numbers .content p svg {
+    width: 10px;
+    margin-right: 0.25rem;
+  }
+}
+@media (max-width: 455px) {
+  .statistics {
+    padding: 0;
+  }
+  .statistics .main-content .topography {
+    display: none;
+  }
+  .statistics .main-content p {
+    font-size: 8px;
+  }
+  .statistics .main-content .numbers {
+    position: absolute;
+    left: 45px;
+  }
+  .statistics .main-content .numbers .content h1 {
+    font-size: 1rem;
+  }
+  .statistics .main-content .numbers .content p {
+    font-size: 0.5rem;
+  }
+  .statistics .main-content .numbers .content p svg {
+    width: 8px;
+    margin-right: 0.25rem;
+  }
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.blog {
+  margin: 5rem 0 0;
+}
+.blog .blog-content {
+  width: 85%;
+  margin: auto;
+}
+.blog .blog-content h1 {
+  font-size: 3.5rem;
+}
+.blog .blog-content .blogs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+.blog .blog-content .blogs .blog-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+  width: 100%;
+  background-color: white;
+  padding-left: 2rem;
+}
+.blog .blog-content .blogs .blog-card .text {
+  font-weight: 600;
+  margin: 1rem 0 1rem 0;
+}
+.blog .blog-content .blogs .blog-card #jump {
+  margin-top: 3.5rem;
+  animation: floating 2s ease-in-out infinite;
+}
+.blog .blog-content .blogs .blog-card #jump svg {
+  margin-left: 1rem;
+}
+.blog .blog-content .blogs .blog-card img {
+  width: 50%;
+}
+.blog .blog-content .blogs .blog-card-many {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog .blog-content .blogs .blog-card-many .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 30%;
+  background-color: white;
+  height: 27rem;
+}
+.blog .blog-content .blogs .blog-card-many .card .text {
+  margin: 0 1rem 0;
+}
+.blog .blog-content .blogs .blog-card-many .card img {
+  width: 100%;
+}
+
+@media (max-width: 930px) {
+  .blog .blog-content .blogs .blog-card-many {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 2rem;
+  }
+  .blog .blog-content .blogs .blog-card-many .card {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: auto;
+  }
+  .blog .blog-content .blogs .blog-card {
+    gap: 5rem;
+  }
+  .blog .blog-content .blogs .blog-card .text {
+    font-size: 0.75rem;
+    margin: 0;
+  }
+  .blog .blog-content .blogs .blog-card #jump {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 475px) {
+  .blog .blog-content .blogs .blog-card-many {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 2rem;
+  }
+  .blog .blog-content .blogs .blog-card-many .card {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: auto;
+  }
+  .blog .blog-content .blogs .blog-card-many .card .text .title {
+    font-size: 0.5rem;
+  }
+  .blog .blog-content .blogs .blog-card-many .card .text .topic {
+    font-size: 0.5rem;
+  }
+  .blog .blog-content .blogs .blog-card {
+    gap: 1rem;
+  }
+  .blog .blog-content .blogs .blog-card .text {
+    font-size: 0.5rem;
+  }
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.faq {
+  margin: 6rem 0 0;
+  position: relative;
+}
+.faq .accordion-blob, .faq .accordion-spiral {
+  position: absolute;
+}
+.faq .accordion-blob {
+  right: 10px;
+}
+.faq .faq-content {
+  width: 85%;
+  margin: auto;
+}
+.faq .faq-content h1 {
+  font-size: 3.5rem;
+  line-height: 4.25rem;
+}
+.faq .faq-content .faq-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.faq .faq-content .accordion-wrapper {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.faq .faq-content .accordion-wrapper .accordion {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #DBE4B9;
+  border-radius: 18px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+.faq .faq-content .accordion-wrapper .accordion .accordion-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  width: 100%;
+  background-color: white;
+  border: none;
+  outline: none;
+  text-align: left;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.faq .faq-content .accordion-wrapper .accordion .accordion-heading:hover {
+  transform: scale(1.02);
+}
+.faq .faq-content .accordion-wrapper .accordion .accordion-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+  margin: 0;
+}
+.faq .faq-content .send-mail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 3rem 0 1rem;
+  width: 30%;
+  height: 32rem;
+  background-color: white;
+  border: 1px solid #DBE4B9;
+  border-radius: 18px;
+  text-align: center;
+}
+.faq .faq-content .send-mail .send-email-button {
+  background-color: #FF7F5C;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  width: 90%;
+  height: 5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Gilroy-Bold", sans-serif;
+  border-radius: 0;
+  transition-duration: 0.2s;
+}
+.faq .faq-content .send-mail .send-email-button:hover {
+  background-color: #ee6843;
+}
+.faq .faq-content .send-mail .send-email-button:active {
+  background-color: #FF7F5C;
+}
+.faq .faq-content .send-mail p {
+  width: 80%;
+}
+
+@media (max-width: 950px) {
+  .faq .faq-content h1 {
+    font-size: 3rem;
+  }
+  .faq .faq-content .faq-main {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .faq .faq-content .faq-main .accordion-wrapper {
+    width: 100%;
+    gap: 2rem;
+  }
+  .faq .faq-content .faq-main .accordion-wrapper .accordion {
+    width: 100%;
+  }
+  .faq .faq-content .faq-main .accordion-wrapper .accordion .accordion-heading {
+    font-size: 1rem;
+  }
+  .faq .faq-content .faq-main .send-mail {
+    width: 100%;
+    height: auto;
+  }
+  .faq .faq-content .faq-main .send-mail .send-email-button {
+    height: 4rem;
+  }
+}
+@media (max-width: 490px) {
+  .faq .faq-content h1 {
+    font-size: 2rem;
+  }
+  .faq .faq-content .faq-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .faq .faq-content .faq-main .accordion-wrapper {
+    width: 100%;
+    gap: 2rem;
+  }
+  .faq .faq-content .faq-main .accordion-wrapper .accordion {
+    width: 100%;
+  }
+  .faq .faq-content .faq-main .accordion-wrapper .accordion .accordion-heading {
+    font-size: 0.75rem;
+  }
+  .faq .faq-content .faq-main .send-mail {
+    width: 100%;
+    height: auto;
+  }
+  .faq .faq-content .faq-main .send-mail .send-email-button {
+    height: 3rem;
+  }
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cta {
+  width: 100%;
+  margin: 7rem auto 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.cta .banner {
+  margin: 0;
+  width: 90svw;
+}
+.cta .cta-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+  width: 70%;
+  padding: 5rem;
+  position: absolute;
+  margin: 0;
+  top: -1rem;
+  display: inline-flex;
+  text-align: center;
+}
+.cta .cta-content h1 {
+  font-size: 4rem;
+}
+.cta .cta-content .cta-button {
+  background-color: #FF7F5C;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  width: 15rem;
+  height: 4rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Manrope", sans-serif;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+  font-size: 1.25rem;
+}
+.cta .cta-content .cta-button:hover {
+  background-color: #ee6843;
+}
+.cta .cta-content .cta-button:active {
+  background-color: #FF7F5C;
+}
+
+@media (max-width: 1100px) {
+  .cta .cta-content h1 {
+    font-size: 3rem;
+  }
+  .cta .cta-content .cta-button {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 910px) {
+  .cta .cta-content h1 {
+    font-size: 2rem;
+  }
+  .cta .cta-content .cta-button {
+    font-size: 1rem;
+    width: 40%;
+  }
+}
+@media (max-width: 700px) {
+  .cta .cta-content h1 {
+    font-size: 1.5rem;
+  }
+  .cta .cta-content .cta-button {
+    font-size: 0.75rem;
+    width: 60%;
+  }
+}
+@media (max-width: 700px) {
+  .cta .cta-content h1 {
+    font-size: 1rem;
+  }
+  .cta .cta-content .cta-button {
+    font-size: 0.5rem;
+    width: 60%;
+  }
+}
+@media (max-width: 460px) {
+  .cta .cta-content h1 {
+    font-size: 0.75rem;
+  }
+  .cta .cta-content .cta-button {
+    font-size: 0.5rem;
+    width: 80%;
+  }
+}
+@media (max-width: 400px) {
+  .cta .cta-content h1 {
+    font-size: 0.5rem;
+  }
+  .cta .cta-content .cta-button {
+    font-size: 0.5rem;
+    width: 100%;
+  }
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.footer {
+  width: 100%;
+  margin: 7rem auto 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer .footer-links {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer .footer-links .footer-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  color: #757095;
+  font-size: 0.85rem;
+  line-height: 1.25rem;
+}
+.footer .footer-links .footer-content .footer-heading {
+  color: black;
+  font-size: 1rem;
+}
+.footer .footer-links .footer-content .social-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #3734A9;
+}
+.footer .footer-links .footer-content .social-links svg {
+  width: 2rem;
+}
+.footer .footer-links .newsletter {
+  width: 30%;
+}
+.footer .footer-links .newsletter .email-input {
+  width: 100%;
+}
+.footer .footer-links .newsletter .email-input input {
+  border: none;
+  height: 3rem;
+  background-color: #EEEEFF;
+  width: 60%;
+  padding: 1rem;
+  -moz-columns: #F5F6F8;
+       columns: #F5F6F8;
+}
+.footer .footer-links .newsletter .email-input button {
+  background-color: #3734A9;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  width: 30%;
+  height: 3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Manrope", sans-serif;
+  border-radius: 0;
+  transition-duration: 0.2s;
+}
+.footer .footer-links .newsletter .email-input button:hover {
+  background-color: #4F46BA;
+}
+.footer .footer-links .newsletter .email-input button:active {
+  background-color: #3734A9;
+}
+.footer .footer-hr {
+  width: 90%;
+  border: 2px solid #E5E5EA;
+}
+.footer .footer-copyright {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+  .footer .footer-links .footer-content {
+    gap: 0.5rem;
+  }
+  .footer .footer-links .newsletter {
+    width: 40%;
+  }
+}
+@media (max-width: 900px) {
+  .footer .footer-links {
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-around;
+  }
+  .footer .footer-links .footer-content {
+    gap: 0.5rem;
+  }
+  .footer .footer-links .newsletter {
+    width: 50%;
+  }
+  .footer .footer-links .newsletter .email-input input {
+    width: 50%;
+  }
+  .footer .footer-links .newsletter .email-input button {
+    width: 40%;
+  }
+}/*# sourceMappingURL=style.css.map */
