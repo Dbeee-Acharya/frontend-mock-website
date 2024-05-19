@@ -631,7 +631,21 @@ header {
 }
 
 .faq {
-    margin: 6rem 0 0;
+    margin: -1rem 0 0;
+    position: relative;
+
+    .accordion-blob, .accordion-spiral {
+        position: inherit;
+    }
+
+    .accordion-spiral {
+        bottom: -200px;
+    }
+
+    .accordion-blob {
+        right: -92%;
+        bottom: -140px;
+    }
 
     .faq-content {
         width: 85%;
