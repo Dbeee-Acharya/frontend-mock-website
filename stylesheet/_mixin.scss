@@ -1,0 +1,28 @@
+//Mixin 
+@mixin fontStyle($family: sans-serif, $weight: 400) {
+    font-family: $family;
+    font-optical-sizing: auto;
+    font-weight: $weight;
+    font-style: normal;
+}
+
+@mixin flex($display, $align, $justify) {
+    display: $display;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin buttonStyle($color, $width, $height, $font, $radius) {
+    background-color: $color; 
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    width: $width;
+    height: $height;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: $font;
+    border-radius: $radius;
+    transition-duration: 0.2s;
+}

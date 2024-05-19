@@ -1,0 +1,57 @@
+@import './variables';
+
+//----------CSS FOR ANIMATIONS--------------
+
+// Adding delay to 2nd and 3rd card to enhance stacking animation
+.card:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.card:nth-child(3) {
+    transition-delay: 300ms;
+}
+
+
+// For animation on scroll
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hidden-down {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100%);
+    transition: all 0.8s;
+}
+
+.go-up {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.hidden-fade {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+}
+
+.fade-in {
+    opacity: 1;
+    filter: blur(0);
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 5px); }
+    100%   { transform: translate(0, -0px); }    
+}

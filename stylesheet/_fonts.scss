@@ -1,0 +1,23 @@
+@import "./variables";
+
+//import local fonts
+
+@font-face {
+    font-family: Gilroy-bold;
+    src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+
+
+//set font classes
+.manrope-text-bold {
+    @include fontStyle($manrope-font, 800);
+}
+
+.manrope-text-normal {
+    @include fontStyle($manrope-font, 400);
+}
+
+.gilroy-text-bold {
+    @include fontStyle($gilroy-font, 700);
+
+}
