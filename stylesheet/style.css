@@ -1753,4 +1753,32 @@ header .header-content .header-banner-check svg {
   text-align: center;
   font-size: 0.75rem;
   font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+  .footer .footer-links .footer-content {
+    gap: 0.5rem;
+  }
+  .footer .footer-links .newsletter {
+    width: 40%;
+  }
+}
+@media (max-width: 900px) {
+  .footer .footer-links {
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-around;
+  }
+  .footer .footer-links .footer-content {
+    gap: 0.5rem;
+  }
+  .footer .footer-links .newsletter {
+    width: 50%;
+  }
+  .footer .footer-links .newsletter .email-input input {
+    width: 50%;
+  }
+  .footer .footer-links .newsletter .email-input button {
+    width: 40%;
+  }
 }/*# sourceMappingURL=style.css.map */

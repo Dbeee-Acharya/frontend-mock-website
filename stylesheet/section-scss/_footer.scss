@@ -81,3 +81,44 @@
         font-weight: 500;
     }
 }
+
+@media (max-width: 1000px) {
+    .footer .footer-links {
+
+        .footer-content {
+            gap: 0.5rem;
+        }
+
+        .newsletter {
+            width: 40%;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .footer .footer-links {
+
+        flex-wrap: wrap;
+        gap: 4rem;
+        justify-content: space-around;
+
+        .footer-content {
+            gap: 0.5rem;
+        }
+
+        .newsletter {
+            width: 50%;
+
+            .email-input {
+                input {
+                    width: 50%;
+                }
+
+                button {
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+
