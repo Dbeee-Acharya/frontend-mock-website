@@ -26,11 +26,11 @@
         }
 
         .heading {
-            @include flex(flex, center, center);
+            @include flex(flex, center, flex-start);
             flex-direction: column;
             text-align: center;
   
-            p.manrope-text-bold {
+            p {
                 margin-bottom: 0;
             }
 
@@ -58,6 +58,38 @@
             text-align: center;
             line-height: $line-height;
             margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .portfolio-tracking-cards .card .manrope-text-bold{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1070px) {
+    .portfolio-tracking-cards .card {
+        height: 20rem;
+    }
+
+    .portfolio-tracking-cards .card .manrope-text-bold {
+        font-size: 1rem;
+    }
+
+    .portfolio-tracking-cards .card .text {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .portfolio-tracking-cards {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 3rem;
+
+        .card {
+            width: 100%;
         }
     }
 }
