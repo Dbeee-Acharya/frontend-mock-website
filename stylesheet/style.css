@@ -736,6 +736,66 @@ header .header-content .header-banner-check svg {
   border-radius: 0;
   transition-duration: 0.2s;
 }
+.faq .faq-content .send-mail .send-email-button:hover {
+  background-color: #ee6843;
+}
+.faq .faq-content .send-mail .send-email-button:active {
+  background-color: #FF7F5C;
+}
 .faq .faq-content .send-mail p {
   width: 80%;
+}
+
+.cta {
+  width: 100%;
+  margin: 7rem auto 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.cta .banner {
+  margin: 0;
+}
+.cta .cta-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+  width: 70%;
+  padding: 5rem;
+  position: absolute;
+  margin: 0;
+  top: -1rem;
+  display: inline-flex;
+  text-align: center;
+}
+.cta .cta-content h1 {
+  font-size: 4rem;
+}
+.cta .cta-content .cta-button {
+  background-color: #FF7F5C;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  width: 15rem;
+  height: 4rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Manrope", sans-serif;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+  font-size: 1.25rem;
+}
+.cta .cta-content .cta-button:hover {
+  background-color: #ee6843;
+}
+.cta .cta-content .cta-button:active {
+  background-color: #FF7F5C;
 }/*# sourceMappingURL=style.css.map */
