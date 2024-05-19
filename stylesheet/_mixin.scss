@@ -1,4 +1,6 @@
 //Mixin 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 @mixin fontStyle($family: sans-serif, $weight: 400) {
     font-family: $family;
     font-optical-sizing: auto;
