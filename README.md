@@ -45,4 +45,4 @@ The repo can also be cloned or downloaded to our local device, and from there yo
 
 ## Folder Structure 
 
-![[folder-sctructure.png]]
+<img src="folder-sctructure.png">
