@@ -1056,6 +1056,7 @@ header .header-content .header-banner-check svg {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 100%;
 }
 .statistics .main-content .numbers .content h1 {
@@ -1071,10 +1072,101 @@ header .header-content .header-banner-check svg {
   margin-right: 1rem;
 }
 .statistics .main-content .topography {
-  position: inherit;
+  position: absolute;
   right: -150px;
 }
 
+@media (max-width: 1190px) {
+  .statistics .main-content {
+    margin: 0 3rem 0 3rem;
+  }
+  .statistics .main-content .topography {
+    display: none;
+  }
+  .statistics .main-content p {
+    font-size: 15px;
+  }
+  .statistics .main-content .numbers .content h1 {
+    font-size: 3rem;
+  }
+  .statistics .main-content .numbers .content p {
+    font-size: 1rem;
+    padding-left: 0;
+  }
+  .statistics .main-content .numbers .content p svg {
+    width: 15px;
+  }
+}
+@media (max-width: 690px) {
+  .statistics {
+    padding: 0;
+  }
+  .statistics .main-content .topography {
+    display: none;
+  }
+  .statistics .main-content p {
+    font-size: 12px;
+  }
+  .statistics .main-content .numbers .content h1 {
+    font-size: 2rem;
+  }
+  .statistics .main-content .numbers .content p {
+    font-size: 0.75rem;
+  }
+  .statistics .main-content .numbers .content p svg {
+    width: 12px;
+  }
+}
+@media (max-width: 590px) {
+  .statistics {
+    padding: 0;
+  }
+  .statistics .main-content .topography {
+    display: none;
+  }
+  .statistics .main-content p {
+    font-size: 10px;
+  }
+  .statistics .main-content .numbers {
+    position: absolute;
+    left: 60px;
+  }
+  .statistics .main-content .numbers .content h1 {
+    font-size: 1.5rem;
+  }
+  .statistics .main-content .numbers .content p {
+    font-size: 0.75rem;
+  }
+  .statistics .main-content .numbers .content p svg {
+    width: 10px;
+    margin-right: 0.25rem;
+  }
+}
+@media (max-width: 455px) {
+  .statistics {
+    padding: 0;
+  }
+  .statistics .main-content .topography {
+    display: none;
+  }
+  .statistics .main-content p {
+    font-size: 8px;
+  }
+  .statistics .main-content .numbers {
+    position: absolute;
+    left: 45px;
+  }
+  .statistics .main-content .numbers .content h1 {
+    font-size: 1rem;
+  }
+  .statistics .main-content .numbers .content p {
+    font-size: 0.5rem;
+  }
+  .statistics .main-content .numbers .content p svg {
+    width: 8px;
+    margin-right: 0.25rem;
+  }
+}
 @font-face {
   font-family: Gilroy-bold;
   src: url(../assets/fonts/Gilroy-Bold.ttf);
