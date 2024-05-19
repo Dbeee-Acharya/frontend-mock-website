@@ -73,3 +73,78 @@
     }
 
 }
+
+@media (max-width: 1290px) {
+    .testimonials .testimonials-cards .card .content {
+        width: 70svw;
+    }
+}
+
+@media (max-width: 790px) {
+    .testimonials .testimonials-cards .card .content {
+        p {
+            font-size: 14px;
+        }
+
+        .image img {
+            width: 8rem;
+        }
+    }
+
+    .testimonials .testimonials-cards .card .quote {
+        width: 2rem;
+    }
+}
+
+
+@media (max-width: 790px) {
+
+    .testimonials .testimonials-heading {
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 0.75rem;
+        }
+
+        img {
+            width: 5rem;
+        }
+    }
+
+    .testimonials .testimonials-cards .card .content {
+        width: 75svw;
+        p {
+            font-size: 10px;
+        }
+
+        .image img {
+            width: 5rem;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+    .testimonials .testimonials-heading {
+        h1 {
+            font-size: 1rem;
+        }
+
+        img {
+            width: 3rem;
+        }
+    }
+
+    .testimonials .testimonials-cards .card .content {
+        width: 95svw;
+        p {
+            font-size: 10px;
+        }
+
+        .image img {
+            width: 3rem;
+        }
+    }
+}

@@ -948,6 +948,59 @@ header .header-content .header-banner-check svg {
   width: 12rem;
 }
 
+@media (max-width: 1290px) {
+  .testimonials .testimonials-cards .card .content {
+    width: 70svw;
+  }
+}
+@media (max-width: 790px) {
+  .testimonials .testimonials-cards .card .content p {
+    font-size: 14px;
+  }
+  .testimonials .testimonials-cards .card .content .image img {
+    width: 8rem;
+  }
+  .testimonials .testimonials-cards .card .quote {
+    width: 2rem;
+  }
+}
+@media (max-width: 790px) {
+  .testimonials .testimonials-heading h1 {
+    font-size: 2rem;
+  }
+  .testimonials .testimonials-heading p {
+    font-size: 0.75rem;
+  }
+  .testimonials .testimonials-heading img {
+    width: 5rem;
+  }
+  .testimonials .testimonials-cards .card .content {
+    width: 75svw;
+  }
+  .testimonials .testimonials-cards .card .content p {
+    font-size: 10px;
+  }
+  .testimonials .testimonials-cards .card .content .image img {
+    width: 5rem;
+  }
+}
+@media (max-width: 450px) {
+  .testimonials .testimonials-heading h1 {
+    font-size: 1rem;
+  }
+  .testimonials .testimonials-heading img {
+    width: 3rem;
+  }
+  .testimonials .testimonials-cards .card .content {
+    width: 95svw;
+  }
+  .testimonials .testimonials-cards .card .content p {
+    font-size: 10px;
+  }
+  .testimonials .testimonials-cards .card .content .image img {
+    width: 3rem;
+  }
+}
 @font-face {
   font-family: Gilroy-bold;
   src: url(../assets/fonts/Gilroy-Bold.ttf);
