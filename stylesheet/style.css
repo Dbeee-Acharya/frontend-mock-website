@@ -289,6 +289,7 @@ header .header-content .header-banner-check svg {
 .companies div p {
   margin: 0 auto 2rem;
   font-weight: 600;
+  text-align: center;
 }
 .companies div .images {
   width: 100%;
@@ -297,8 +298,16 @@ header .header-content .header-banner-check svg {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 3rem;
 }
 
+@media (max-width: 381px) {
+  .companies div .images {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @font-face {
   font-family: Gilroy-bold;
   src: url(../assets/fonts/Gilroy-Bold.ttf);
