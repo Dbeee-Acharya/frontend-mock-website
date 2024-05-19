@@ -7,7 +7,8 @@
 header {
     background-image: url(../assets/images/header-background.png);
     background-size: cover;
-    height: 120svh;
+    background-repeat: no-repeat;
+    height: 100svh;
     padding-top: 2svh;
 
     .header {
@@ -114,3 +115,66 @@ header {
     }
 }
 
+@media (max-width: 920px) {
+    header {
+        height: 90svh;
+
+        .header .header-links {
+            display: none;
+        }
+
+
+        .header-content .header-main {
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 660px) {
+    header {
+        height: 90svh;
+
+        .header-content .header-main, .header-content .header-subtext {
+            width: 90%;
+            font-size: 2rem;
+        }
+    }
+}
+
+@media (max-width: 520px) {
+    header {
+        height: 80svh;
+
+        .header-content .header-main, .header-content .header-subtext {
+            width: 90%;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    header {
+        height: 80svh;
+
+        .header-content .header-main, .header-content .header-subtext {
+            width: 90%;
+            font-size: 1rem;
+        }
+
+        .header .header-buttons {
+            @include flex(flex, center, flex-start);
+
+            button {
+                height: 2rem;
+                width: 5rem;
+                font-size: 0.55rem;
+            }
+        }
+
+        .header-content .header-banner-buttons {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+    }
+}
