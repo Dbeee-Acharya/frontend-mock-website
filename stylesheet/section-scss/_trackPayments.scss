@@ -176,14 +176,6 @@
             }
         }
 
-        // .hand-credit-card-black img {
-        //     width: 80svw;
-        // }
-
-        // .total-balance img {
-        //     width: 60svw;
-        //     margin-left: 10svw;
-        // }
     }
 }
 
@@ -196,6 +188,10 @@
 
         .total-balance img {
             width: 60svw;
+        }
+
+        .comment .comment-background .comment-content p {
+            font-size: 0.75rem;
         }
     }
 }
