@@ -1257,7 +1257,7 @@ header .header-content .header-banner-check svg {
   margin-left: 1rem;
 }
 .blog .blog-content .blogs .blog-card img {
-  width: 100%;
+  width: 50%;
 }
 .blog .blog-content .blogs .blog-card-many {
   display: flex;
