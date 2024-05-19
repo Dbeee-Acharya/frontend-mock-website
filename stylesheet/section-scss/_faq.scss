@@ -5,20 +5,19 @@
 
 
 .faq {
-    margin: -1rem 0 0;
+    margin: 6rem 0 0;
     position: relative;
 
     .accordion-blob, .accordion-spiral {
-        position: inherit;
+        position: absolute;
     }
 
     .accordion-spiral {
-        bottom: -200px;
+        // bottom: -200px;
     }
 
     .accordion-blob {
-        right: -92%;
-        bottom: -140px;
+        right: 10px;
     }
 
     .faq-content {
@@ -102,5 +101,74 @@
             }
         }
 
+    }
+}
+
+@media (max-width: 950px) {
+    .faq .faq-content {
+        h1 {
+            font-size: 3rem;
+        }
+
+        .faq-main {
+            flex-direction: column;
+            gap: 3rem;
+
+            .accordion-wrapper {
+                width: 100%;
+                gap: 2rem;
+                .accordion {
+                    width: 100%;
+
+                    .accordion-heading {
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            .send-mail {
+                width: 100%;
+                height: auto;
+
+                .send-email-button {
+                    height: 4rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 490px) {
+    .faq .faq-content {
+        h1 {
+            font-size: 2rem;
+        }
+
+        .faq-main {
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+
+            .accordion-wrapper {
+                width: 100%;
+                gap: 2rem;
+                .accordion {
+                    width: 100%;
+
+                    .accordion-heading {
+                        font-size: 0.75rem;
+                    }
+                }
+            }
+
+            .send-mail {
+                width: 100%;
+                height: auto;
+
+                .send-email-button {
+                    height: 3rem;
+                }
+            }
+        }
     }
 }

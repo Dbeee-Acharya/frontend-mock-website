@@ -1360,18 +1360,14 @@ header .header-content .header-banner-check svg {
 }
 
 .faq {
-  margin: -1rem 0 0;
+  margin: 6rem 0 0;
   position: relative;
 }
 .faq .accordion-blob, .faq .accordion-spiral {
-  position: inherit;
-}
-.faq .accordion-spiral {
-  bottom: -200px;
+  position: absolute;
 }
 .faq .accordion-blob {
-  right: -92%;
-  bottom: -140px;
+  right: 10px;
 }
 .faq .faq-content {
   width: 85%;
@@ -1462,6 +1458,59 @@ header .header-content .header-banner-check svg {
   width: 80%;
 }
 
+@media (max-width: 950px) {
+  .faq .faq-content h1 {
+    font-size: 3rem;
+  }
+  .faq .faq-content .faq-main {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .faq .faq-content .faq-main .accordion-wrapper {
+    width: 100%;
+    gap: 2rem;
+  }
+  .faq .faq-content .faq-main .accordion-wrapper .accordion {
+    width: 100%;
+  }
+  .faq .faq-content .faq-main .accordion-wrapper .accordion .accordion-heading {
+    font-size: 1rem;
+  }
+  .faq .faq-content .faq-main .send-mail {
+    width: 100%;
+    height: auto;
+  }
+  .faq .faq-content .faq-main .send-mail .send-email-button {
+    height: 4rem;
+  }
+}
+@media (max-width: 490px) {
+  .faq .faq-content h1 {
+    font-size: 2rem;
+  }
+  .faq .faq-content .faq-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .faq .faq-content .faq-main .accordion-wrapper {
+    width: 100%;
+    gap: 2rem;
+  }
+  .faq .faq-content .faq-main .accordion-wrapper .accordion {
+    width: 100%;
+  }
+  .faq .faq-content .faq-main .accordion-wrapper .accordion .accordion-heading {
+    font-size: 0.75rem;
+  }
+  .faq .faq-content .faq-main .send-mail {
+    width: 100%;
+    height: auto;
+  }
+  .faq .faq-content .faq-main .send-mail .send-email-button {
+    height: 3rem;
+  }
+}
 @font-face {
   font-family: Gilroy-bold;
   src: url(../assets/fonts/Gilroy-Bold.ttf);
