@@ -25,9 +25,8 @@
         max-height: 685px;
 
         .total-balance {
-            position: relative;
-            top: -300px;
-            left: -50px;
+            position: absolute;
+            bottom: 100px;
         }
     }
 
@@ -166,7 +165,7 @@
         flex-direction: column-reverse;
 
         .why-choose-us {
-            width: 80%;
+            width: 90%;
  
             h1 {
              font-size: 2rem;
@@ -175,16 +174,31 @@
             .text {
              font-size: 1rem;
             }
-         }
+        }
+
+        // .hand-credit-card-black img {
+        //     width: 80svw;
+        // }
+
+        // .total-balance img {
+        //     width: 60svw;
+        //     margin-left: 10svw;
+        // }
     }
 }
 
-@media (max-width: 720px) {
-    .track-payments-section.one {
-        .recieved-money img {
-           
+@media (max-width: 670px) {
+    .track-payments-section.two {
+
+        .hand-credit-card-black img {
+            width: 80svw;
+        }
+
+        .total-balance img {
+            width: 60svw;
         }
     }
 }
+
 
 

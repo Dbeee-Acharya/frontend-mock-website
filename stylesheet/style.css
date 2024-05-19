@@ -567,9 +567,8 @@ header .header-content .header-banner-check svg {
   max-height: 685px;
 }
 .track-payments-section .hand-credit-card-black .total-balance {
-  position: relative;
-  top: -300px;
-  left: -50px;
+  position: absolute;
+  bottom: 100px;
 }
 .track-payments-section .why-choose-us {
   width: 45%;
@@ -688,13 +687,21 @@ header .header-content .header-banner-check svg {
     flex-direction: column-reverse;
   }
   .track-payments-section.two .why-choose-us {
-    width: 80%;
+    width: 90%;
   }
   .track-payments-section.two .why-choose-us h1 {
     font-size: 2rem;
   }
   .track-payments-section.two .why-choose-us .text {
     font-size: 1rem;
+  }
+}
+@media (max-width: 670px) {
+  .track-payments-section.two .hand-credit-card-black img {
+    width: 80svw;
+  }
+  .track-payments-section.two .total-balance img {
+    width: 60svw;
   }
 }
 @font-face {
