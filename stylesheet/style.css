@@ -1549,6 +1549,7 @@ header .header-content .header-banner-check svg {
 }
 .cta .banner {
   margin: 0;
+  width: 90svw;
 }
 .cta .cta-content {
   display: flex;
@@ -1590,6 +1591,59 @@ header .header-content .header-banner-check svg {
   background-color: #FF7F5C;
 }
 
+@media (max-width: 1100px) {
+  .cta .cta-content h1 {
+    font-size: 3rem;
+  }
+  .cta .cta-content .cta-button {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 910px) {
+  .cta .cta-content h1 {
+    font-size: 2rem;
+  }
+  .cta .cta-content .cta-button {
+    font-size: 1rem;
+    width: 40%;
+  }
+}
+@media (max-width: 700px) {
+  .cta .cta-content h1 {
+    font-size: 1.5rem;
+  }
+  .cta .cta-content .cta-button {
+    font-size: 0.75rem;
+    width: 60%;
+  }
+}
+@media (max-width: 700px) {
+  .cta .cta-content h1 {
+    font-size: 1rem;
+  }
+  .cta .cta-content .cta-button {
+    font-size: 0.5rem;
+    width: 60%;
+  }
+}
+@media (max-width: 460px) {
+  .cta .cta-content h1 {
+    font-size: 0.75rem;
+  }
+  .cta .cta-content .cta-button {
+    font-size: 0.5rem;
+    width: 80%;
+  }
+}
+@media (max-width: 400px) {
+  .cta .cta-content h1 {
+    font-size: 0.5rem;
+  }
+  .cta .cta-content .cta-button {
+    font-size: 0.5rem;
+    width: 100%;
+  }
+}
 @font-face {
   font-family: Gilroy-bold;
   src: url(../assets/fonts/Gilroy-Bold.ttf);
