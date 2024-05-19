@@ -195,6 +195,11 @@ header .header-content .header-banner-check svg {
   margin-right: 5px;
 }
 
+@media (max-width: 1460px) {
+  header .header-content .header-main {
+    font-size: 2rem;
+  }
+}
 @media (max-width: 920px) {
   header {
     height: 90svh;
@@ -206,22 +211,43 @@ header .header-content .header-banner-check svg {
     width: 90%;
   }
 }
+@media (max-width: 710px) {
+  header .header-content .header-main {
+    font-size: 2rem;
+  }
+  header .header-content .header-subtext {
+    width: 70%;
+    font-size: 1rem;
+  }
+}
 @media (max-width: 660px) {
+  header .header-content .header-main {
+    font-size: 2rem;
+    width: 90%;
+  }
   header {
     height: 90svh;
   }
-  header .header-content .header-main, header .header-content .header-subtext {
+  header .header-content .header-subtext {
     width: 90%;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 520px) {
+  header .header-content {
+    margin-top: 4rem;
+    padding-top: 0;
+  }
+  header .header-content .header-main {
+    font-size: 1.5rem;
+    width: 90%;
+  }
   header {
     height: 80svh;
   }
-  header .header-content .header-main, header .header-content .header-subtext {
+  header .header-content .header-subtext {
     width: 90%;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 440px) {
