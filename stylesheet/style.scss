@@ -778,7 +778,10 @@ header {
 
 .footer {
     width: 100%;
-    margin: 7rem auto;
+    margin: 7rem auto 2rem;
+    @include flex(flex, flex-start, flex-start);
+    flex-direction: column;
+    gap: 2rem;
 
     .footer-links {
         width: 90%;
@@ -836,6 +839,19 @@ header {
                 }
             }
         }
+    }
+
+    .footer-hr {
+        width: 90%;
+        border: 2px solid #E5E5EA;
+    }
+
+    .footer-copyright {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-size: 0.75rem;
+        font-weight: 500;
     }
 }
 

@@ -804,7 +804,12 @@ header .header-content .header-banner-check svg {
 
 .footer {
   width: 100%;
-  margin: 7rem auto;
+  margin: 7rem auto 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2rem;
 }
 .footer .footer-links {
   width: 90%;
@@ -870,4 +875,15 @@ header .header-content .header-banner-check svg {
 }
 .footer .footer-links .newsletter .email-input button:active {
   background-color: #3734A9;
+}
+.footer .footer-hr {
+  width: 90%;
+  border: 2px solid #E5E5EA;
+}
+.footer .footer-copyright {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
