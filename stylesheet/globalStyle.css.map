@@ -1,1 +1,1 @@
-{"version":3,"sources":["globalStyle.scss","globalStyle.css","_variables.scss"],"names":[],"mappings":"AAEA;EACI,sBAAA;ACDJ;;ADIA;EACI,uBAAA;EACA,kBAAA;ACDJ;;ADIA;EACI,SAAA;EACA,yBELoB;ADIxB;;ADKA;EACI,gBAAA;EACA,UAAA;ACFJ;;ADKA;EACI,qBAAA;EACA,cAAA;ACFJ","file":"globalStyle.css"}
+{"version":3,"sources":["globalStyle.scss","globalStyle.css","section-scss/_variables.scss"],"names":[],"mappings":"AAEA;EACI,sBAAA;ACDJ;;ADIA;EACI,uBAAA;EACA,kBAAA;ACDJ;;ADIA;EACI,SAAA;EACA,yBELoB;ADIxB;;ADKA;EACI,gBAAA;EACA,UAAA;ACFJ;;ADKA;EACI,qBAAA;EACA,cAAA;ACFJ","file":"globalStyle.css"}

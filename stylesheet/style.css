@@ -1,6 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @font-face {
   font-family: Gilroy-bold;
   src: url(../assets/fonts/Gilroy-Bold.ttf);
@@ -160,6 +182,31 @@ header .header-content .header-banner-check svg {
   margin-right: 5px;
 }
 
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .companies {
   background-color: #F5F6F8;
   padding: 3rem 0;
@@ -184,6 +231,31 @@ header .header-content .header-banner-check svg {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .automated-portfolio-tracking {
@@ -225,6 +297,31 @@ header .header-content .header-banner-check svg {
 .automated-portfolio-tracking .comment .comment-background .comment-content {
   position: relative;
   top: -60px;
+}
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .portfolio-tracking-cards {
@@ -285,6 +382,31 @@ header .header-content .header-banner-check svg {
   text-align: center;
   line-height: 2;
   margin-bottom: 0;
+}
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .track-payments-section {
@@ -379,6 +501,31 @@ header .header-content .header-banner-check svg {
 }
 .track-payments-section.two .comment .comment-background .comment-content p {
   color: black;
+}
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .features {
@@ -478,6 +625,31 @@ header .header-content .header-banner-check svg {
   margin: 0;
 }
 
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .testimonials {
   display: flex;
   align-items: center;
@@ -544,6 +716,31 @@ header .header-content .header-banner-check svg {
   width: 12rem;
 }
 
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .statistics {
   width: 100%;
   padding: 2rem 0;
@@ -591,6 +788,31 @@ header .header-content .header-banner-check svg {
 .statistics .main-content .topography {
   position: inherit;
   right: -150px;
+}
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .blog {
@@ -652,6 +874,31 @@ header .header-content .header-banner-check svg {
 }
 .blog .blog-content .blogs .blog-card-many .card img {
   width: 100%;
+}
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .faq {
@@ -757,6 +1004,31 @@ header .header-content .header-banner-check svg {
   width: 80%;
 }
 
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .cta {
   width: 100%;
   margin: 7rem auto 0;
@@ -809,6 +1081,31 @@ header .header-content .header-banner-check svg {
 }
 .cta .cta-content .cta-button:active {
   background-color: #FF7F5C;
+}
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+.manrope-text-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-text-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gilroy-text-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .footer {

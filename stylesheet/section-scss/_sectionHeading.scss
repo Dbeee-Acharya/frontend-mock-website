@@ -1,0 +1,45 @@
+@import "./variables";
+@import "./mixin";
+@import "./fonts";
+
+.automated-portfolio-tracking {
+    @include flex(flex, center, space-between);
+    flex-wrap: wrap; 
+    width: 80%;
+    margin: 5rem auto;
+
+    .text {
+        width: 50%;
+        .main-text {
+            font-size: 3.25rem;
+            margin: 0 0;
+        }
+    }
+
+    .comment {
+        @include flex(flex, center, flex-end);
+        width: 40%;
+
+        .comment-background {
+            font-size: 15px;
+            font-weight: 600;
+            background-color: $color-dark-grey;
+            padding: 1.5rem 1.5rem 1rem;
+            width: 80%; 
+            height: 10rem;
+            border-radius: 24px;
+            position: relative;
+
+            img {
+                position: inherit;
+                top: -50px;
+                right: -5px;
+            }
+
+            .comment-content {
+                position: relative;
+                top: -60px;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import "./variables";
+@import "./mixin";
+@import "./fonts";
+
+.companies {
+    background-color: $color-grey;
+    padding: 3rem 0;
+    margin: auto;
+
+    div {
+        @include flex(flex, center, space-between);
+        flex-direction: column;
+        width: 85%;
+        margin: auto; 
+
+        p {
+            margin: 0 auto 2rem;
+            font-weight: 600;
+        }
+
+        .images {
+            width: 100%;
+            @include flex(flex, center, space-between);
+            flex-direction: row;
+            flex-wrap: wrap;    
+        }
+    }
+}
