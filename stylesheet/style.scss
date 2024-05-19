@@ -10,7 +10,7 @@
 header {
     background-image: url(../assets/images/header-background.png);
     background-size: cover;
-    height: 100svh;
+    height: 120svh;
     padding-top: 2svh;
 
     .header {
@@ -107,7 +107,7 @@ header {
             @include flex(flex, center, space-between);
             gap: 20px;
             color: $color-purple-hover;
-            margin: 3rem 0 0;
+            margin:  2rem 0 0;
             font-size: 1rem;
             
             svg {
@@ -120,6 +120,7 @@ header {
 .companies {
     background-color: $color-grey;
     padding: 3rem 0;
+    margin: auto;
 
     div {
         @include flex(flex, center, space-between);
@@ -130,6 +131,13 @@ header {
         p {
             margin: 0 auto 2rem;
             font-weight: 600;
+        }
+
+        .images {
+            width: 100%;
+            @include flex(flex, center, space-between);
+            flex-direction: row;
+            flex-wrap: wrap;    
         }
     }
 }
