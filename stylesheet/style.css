@@ -550,16 +550,17 @@ header .header-content .header-banner-check svg {
   justify-content: space-between;
   width: 80%;
   margin: 5rem auto 0rem;
+  position: relative;
 }
 .track-payments-section .recieved-money {
-  width: 45%;
+  width: -moz-fit-content;
+  width: fit-content;
   position: relative;
   max-height: 520px;
 }
-.track-payments-section .recieved-money .card {
-  position: inherit;
-  top: -450px;
-  right: -25px;
+.track-payments-section .card {
+  position: absolute;
+  left: 50px;
 }
 .track-payments-section .hand-credit-card-black {
   position: relative;
@@ -626,18 +627,76 @@ header .header-content .header-banner-check svg {
   position: relative;
 }
 .track-payments-section.two .comment .comment-background img {
-  position: inherit;
-  top: -50px;
-  right: -5px;
+  position: absolute;
+  top: -15px;
+  display: inline-block;
 }
 .track-payments-section.two .comment .comment-background .comment-content {
-  position: relative;
-  top: -60px;
+  position: absolute;
+  display: inline-block;
 }
 .track-payments-section.two .comment .comment-background .comment-content p {
   color: black;
 }
+.track-payments-section.two .why-choose-us {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
 
+@media (max-width: 1370px) {
+  .track-payments-section.one .why-choose-us {
+    width: 30%;
+  }
+  .track-payments-section .why-choose-us h1 {
+    font-size: 1.5rem;
+  }
+  .track-payments-section .why-choose-us .text {
+    font-size: 0.75rem;
+  }
+  .track-payments-section.two {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}
+@media (max-width: 1075px) {
+  .track-payments-section.one {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .track-payments-section.one .why-choose-us {
+    width: 80%;
+  }
+  .track-payments-section.one .why-choose-us h1 {
+    font-size: 2rem;
+  }
+  .track-payments-section.one .why-choose-us .text {
+    font-size: 1rem;
+  }
+  .track-payments-section.one .recieved-money img {
+    width: 70svw;
+  }
+  .track-payments-section.one .card {
+    top: 40px;
+  }
+  .track-payments-section.one .card img {
+    width: 65svw;
+  }
+  .track-payments-section.two {
+    flex-direction: column-reverse;
+  }
+  .track-payments-section.two .why-choose-us {
+    width: 80%;
+  }
+  .track-payments-section.two .why-choose-us h1 {
+    font-size: 2rem;
+  }
+  .track-payments-section.two .why-choose-us .text {
+    font-size: 1rem;
+  }
+}
 @font-face {
   font-family: Gilroy-bold;
   src: url(../assets/fonts/Gilroy-Bold.ttf);

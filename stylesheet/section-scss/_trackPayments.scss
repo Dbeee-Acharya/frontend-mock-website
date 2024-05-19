@@ -6,17 +6,18 @@
     @include flex(flex, center, space-between);
     width: 80%;
     margin: 5rem auto 0rem;
+    position: relative;
 
     .recieved-money {
-        width: 45%;
+        width: fit-content;
         position: relative;
         max-height: 520px;
 
-        .card {
-            position: inherit;
-            top: -450px;
-            right: -25px;
-        }
+    }
+
+    .card {
+        position: absolute;
+        left: 50px;
     }
 
     .hand-credit-card-black {
@@ -87,14 +88,14 @@
             position: relative;
 
             img {
-                position: inherit;
-                top: -50px;
-                right: -5px;
+                position: absolute;
+                top: -15px;
+                display: inline-block;
             }
 
             .comment-content {
-                position: relative;
-                top: -60px;
+                position: absolute;
+                display: inline-block;
 
                 p {
                     color: black;
@@ -102,4 +103,88 @@
             }
         }
     }
+
+    .why-choose-us {
+        @include flex(flex, flex-start, flex-start);
+        flex-direction: column;
+    }
 }
+
+@media (max-width: 1370px) {
+
+    .track-payments-section.one .why-choose-us {
+        width: 30%;
+    }
+
+    .track-payments-section .why-choose-us h1 {
+        font-size: 1.5rem;
+    }
+
+    .track-payments-section .why-choose-us .text {
+        font-size: 0.75rem;
+    }
+
+    .track-payments-section.two {
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+}
+
+@media (max-width: 1075px) {
+    .track-payments-section.one {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .why-choose-us {
+           width: 80%;
+
+           h1 {
+            font-size: 2rem;
+           }
+
+           .text {
+            font-size: 1rem;
+           }
+        }
+
+        .recieved-money img{
+            width: 70svw;
+        }
+
+        .card {
+            top: 40px;
+
+            img {
+                width: 65svw;
+            }
+        }
+    }
+
+    .track-payments-section.two {
+        flex-direction: column-reverse;
+
+        .why-choose-us {
+            width: 80%;
+ 
+            h1 {
+             font-size: 2rem;
+            }
+ 
+            .text {
+             font-size: 1rem;
+            }
+         }
+    }
+}
+
+@media (max-width: 720px) {
+    .track-payments-section.one {
+        .recieved-money img {
+           
+        }
+    }
+}
+
+
