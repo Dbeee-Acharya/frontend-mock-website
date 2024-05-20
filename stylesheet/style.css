@@ -396,6 +396,7 @@ header .header-content .header-banner-check svg {
 }
 .automated-portfolio-tracking .comment .comment-background .comment-content {
   position: absolute;
+  padding: 0px 1rem 0rem 0rem;
 }
 
 @media (max-width: 1500px) {
@@ -659,6 +660,7 @@ header .header-content .header-banner-check svg {
 .track-payments-section.two .comment .comment-background .comment-content {
   position: absolute;
   display: inline-block;
+  padding: 0px 1rem 0px 0px;
 }
 .track-payments-section.two .comment .comment-background .comment-content p {
   color: black;
