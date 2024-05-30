@@ -1,8 +1,8 @@
-# Intuji Frontend Internship Challenge 
+# Frontend Mock Website 
 
 <hr>
 
-The implementation of the frontend internship challenge for Intuji. The project is responsive across various breakpoints, has JavaScript animations implemented and the CSS has been done using Sass preprocessor. 
+The project is responsive across various breakpoints, has JavaScript animations implemented and the CSS has been done using Sass preprocessor. 
 
 **This website was developed in Debian using WSL2 and Vs Code**
 
