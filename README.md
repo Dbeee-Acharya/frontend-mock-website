@@ -13,7 +13,7 @@ The project is responsive across various breakpoints, has JavaScript animations 
 <hr>
 
 The completed website has been hosted on Github pages, so can be viewed directly from the following link:
-### GitHub Pages:  https://dbeee-acharya.github.io/intuji-frontend-internship-challenge/
+### GitHub Pages:  https://dbeee-acharya.github.io/frontend-mock-website/
 
 The repo can also be cloned or downloaded to our local device, and from there you can access the website directly by opening the `index.html` page.
 
